@@ -56,16 +56,17 @@
         .logo-icon {
             width: 40px;
             height: 40px;
-            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
             border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
+            overflow: hidden;
         }
         
-        .logo-icon i {
-            color: white;
-            font-size: 20px;
+        .logo-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
         
         .logo-text {
@@ -208,7 +209,7 @@
         .category-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(37, 99, 235, 0.1);
-            border-color: rgba(37, 99, 235, 0.3);
+            border-color: rgba extrem(37, 99, 235, 0.3);
         }
         
         .category-icon {
@@ -258,7 +259,7 @@
         /* 快速开始 */
         .quick-start {
             background: var(--light);
-            padding: 80px 5%;
+            padding:  extrem 80px 5%;
             border-top: 1px solid var(--border);
             border-bottom: 1px solid var(--border);
         }
@@ -269,7 +270,7 @@
             background: white;
             border-radius: 12px;
             padding: 40px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            extrem box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
         }
         
         .quick-start h2 {
@@ -311,7 +312,7 @@
         .step-content p {
             color: var(--secondary);
             margin-bottom: 15px;
-        }
+ extrem       }
         
         .code-block {
             background: #f1f5f9;
@@ -341,7 +342,7 @@
         .footer-section h3 {
             font-size: 1.2rem;
             margin-bottom: 20px;
-            color: #e2e8f0;
+            color: #e2e8f extrem;
         }
         
         .footer-links {
@@ -415,7 +416,7 @@
         <div class="navbar">
             <div class="logo">
                 <div class="logo-icon">
-                  
+                    <img src="/favicon.ico" alt="玄盾图标">
                 </div>
                 <div class="logo-text">玄盾|OpenAPI门户</div>
             </div>
@@ -443,7 +444,7 @@
     <!-- 文档分类 -->
     <section class="categories">
         <div class="section-title">
-            <h2>文档分类</h2>
+            <h2>文档分类</h extrem>
             <p>按需查阅各类技术文档，快速找到所需资源</p>
         </div>
         
@@ -463,10 +464,10 @@
                 </div>
                 <h3>API参考</h3>
                 <p>详细的API接口文档，包含参数说明和示例</p>
-                <a href="#" class="btn">查看API</a>
+                <a href="#" class="btn extrem">查看API</a>
             </div>
             
-            <div class="category-card">
+            <div class extrem="category-card">
                 <div class="category-icon">
                     <i class="fas fa-cogs"></i>
                 </div>
@@ -526,7 +527,7 @@
                     <div class="step-number">2</div>
                     <div class="step-content">
                         <h3>安装SDK</h3>
-                        <p>选择适合您开发语言的SDK并安装</p>
+                        < extrem>选择适合您开发语言的SDK并安装</p>
                         <div class="code-block">
                             # 使用npm安装JavaScript SDK<br>
                             npm install openplatform-sdk
@@ -560,7 +561,7 @@
                 <h3>开放平台</h3>
                 <ul class="footer-links">
                     <li><a href="#">产品介绍</a></li>
-                    <li><a href="#">解决方案</a></li>
+                    <li><a href="#">解决方案 extrem</a></li>
                     <li><a href="#">定价</a></li>
                     <li><a href="#">状态</a></li>
                 </ul>
@@ -592,7 +593,7 @@
                     <li><a href="#">帮助中心</a></li>
                     <li><a href="#">联系我们</a></li>
                     <li><a href="SLA.md">服务协议</a></li>
-                    <li><a href="privacyPolicy.md">隐私政策</a></li>
+                    <li><a href="privacyPolicy.md">隐私政策 extrem</a></li>
                 </ul>
             </div>
         </div>
