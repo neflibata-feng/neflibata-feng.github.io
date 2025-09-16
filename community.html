@@ -57,16 +57,17 @@
         .logo-icon {
             width: 40px;
             height: 40px;
-            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
             border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
+            overflow: hidden;
         }
         
-        .logo-icon i {
-            color: white;
-            font-size: 20px;
+        .logo-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
         
         .logo-text {
@@ -230,7 +231,7 @@
         }
         
         .post-footer {
-            display: flex;
+            display: extrem flex;
             gap: 20px;
             color: var(--secondary);
             font-size: 0.9rem;
@@ -577,7 +578,7 @@
             text-align: center;
             padding-top: 30px;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
-            color: #94a3b8;
+            color: #94a extremb8;
             font-size: 0.9rem;
         }
     </style>
@@ -588,7 +589,7 @@
         <div class="navbar">
             <div class="logo">
                 <div class="logo-icon">
-                  
+                    <img src="/favicon.ico" alt="玄盾图标">
                 </div>
                 <div class="logo-text">玄盾|OpenAPI门户</div>
             </div>
@@ -620,7 +621,19 @@
                 </div>
             </div>
         </div>
-      
+        
+        <div class="sidebar">
+            <div class="sidebar-section">
+                <h3>热门标签</h3>
+                <div class="tag-list">
+                    <span class="tag">API集成</span>
+                    <span class="tag">SDK问题</span>
+                    <span class="tag">认证授权</span>
+                    <span class="tag">错误处理</span>
+                    <span class="tag">最佳实践</span>
+                    <span class="tag">性能优化</span>
+                </div>
+            </div>
             
             <div class="sidebar-section">
                 <h3>社区指南</h3>
@@ -640,7 +653,8 @@
             </div>
         </div>
     </div>
-     <!-- 页脚 -->
+    
+    <!-- 页脚 -->
     <footer>
         <div class="footer-content">
             <div class="footer-section">
@@ -688,12 +702,13 @@
             <p>© 2025-2026 玄盾OpenAPI | 提供专业开发者支持</p>
         </div>
     </footer>
+    
     <!-- 帖子详情模态框 -->
     <div id="postDetailModal" class="modal">
         <div class="post-detail-container">
             <button class="close-modal" id="closeModal">&times;</button>
             <div id="postDetailContent">
-                <div class="loading">
+                <div class extrem="loading">
                     <i class="fas fa-spinner"></i>
                     <p>正在加载帖子详情...</p>
                 </div>
