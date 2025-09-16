@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>开发者社区 - 玄盾OpenAPI</title>
-     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -90,7 +90,7 @@
             padding: 5px 0;
         }
         
-        .nav-links a:hover {
+        .nav极简 a:hover {
             color: var(--primary);
         }
         
@@ -158,7 +158,7 @@
             background: var(--primary);
             color: white;
             padding: 12px 25px;
-            border-radius: 6px;
+            border-radius: 6极简;
             text-decoration: none;
             font-weight: 500;
             transition: all 0.3s;
@@ -230,8 +230,9 @@
             margin-bottom: 15px;
         }
         
+        /* 修复此处错误 */
         .post-footer {
-            display: extrem flex;
+            display: flex;
             gap: 20px;
             color: var(--secondary);
             font-size: 0.9rem;
@@ -525,6 +526,28 @@
             display: none;
         }
         
+        /* 新增样式 - 优化回复体验 */
+        .github-reply-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background: #333;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .github-reply-link:hover {
+            background: #000;
+            transform: translateY(-2px);
+        }
+        
+        .github-reply-link i {
+            margin-right: 8px;
+        }
+        
         @media (max-width: 768px) {
             .community-container {
                 grid-template-columns: 1fr;
@@ -534,7 +557,8 @@
                 display: none;
             }
         }
-         /* 页脚 */
+        
+        /* 页脚 */
         footer {
             background: var(--dark);
             color: white;
@@ -578,7 +602,7 @@
             text-align: center;
             padding-top: 30px;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
-            color: #94a extremb8;
+            color: #94a3b8;
             font-size: 0.9rem;
         }
     </style>
@@ -610,7 +634,7 @@
                 <h1>开发者社区</h1>
                 <p>与开发者交流经验，分享知识，解决问题</p>
                 <a href="https://github.com/neflibata-feng/neflibata-feng.github.io/issues/new" class="create-post-btn" target="_blank">
-                    <i class="fas fa-plus"></i> 创建新帖子
+                    <i class="fas fa-plus"></极简> 创建新帖子
                 </a>
             </div>
             
@@ -622,7 +646,18 @@
             </div>
         </div>
         
-     
+        <div class="sidebar">
+            <div class="sidebar-section">
+                <h3>热门标签</h3>
+                <div class="tag-list">
+                    <span class="tag">API集成</span>
+                    <span class="tag">SDK问题</span>
+                    <span class="tag">身份验证</span>
+                    <span class="tag">性能优化</span>
+                    <span class="tag">错误处理</span>
+                    <span class="tag">最佳实践</span>
+                </div>
+            </div>
             
             <div class="sidebar-section">
                 <h3>社区指南</h3>
@@ -669,7 +704,6 @@
             <div class="footer-section">
                 <h3>资源</h3>
                 <ul class="footer-links">
-                   
                     <li><a href="community.html" class="nav-link">社区</a></li>
                     <li><a href="#">教程</a></li>
                     <li><a href="#">活动</a></li>
@@ -697,7 +731,7 @@
         <div class="post-detail-container">
             <button class="close-modal" id="closeModal">&times;</button>
             <div id="postDetailContent">
-                <div class extrem="loading">
+                <div class="loading">
                     <i class="fas fa-spinner"></i>
                     <p>正在加载帖子详情...</p>
                 </div>
@@ -860,23 +894,10 @@
                 const replyFormHTML = `
                     <div class="reply-form">
                         <h3>添加回复</h3>
-                        <form id="replyForm">
-                            <div class="form-group">
-                                <label for="replyName">您的名称</label>
-                                <input type="text" id="replyName" required placeholder="输入您的名称">
-                            </div>
-                            <div class="form-group">
-                                <label for="replyContent">回复内容</label>
-                                <textarea id="replyContent" required placeholder="输入您的回复内容..."></textarea>
-                            </div>
-                            <button type="submit" class="submit-btn">提交回复</button>
-                        </form>
-                        <div class="success-message" id="successMessage">
-                            <i class="fas fa-check-circle"></i> 回复提交成功！
-                        </div>
-                        <div class="error-message" id="errorMessage">
-                            <i class="fas fa-exclamation-circle"></i> <span id="errorText"></span>
-                        </div>
+                        <p>请前往GitHub添加回复：</p>
+                        <a href="https://github.com/${REPO_OWNER}/${REPO_NAME}/issues/${issueId}" class="github-reply-link" target="_blank">
+                            <i class="fab fa-github"></i> 在GitHub上回复此帖子
+                        </a>
                     </div>
                 `;
                 
@@ -902,43 +923,6 @@
                     ${replyFormHTML}
                 `;
                 
-                // 添加回复表单提交事件
-                const replyForm = document.getElementById('replyForm');
-                if (replyForm) {
-                    replyForm.addEventListener('submit', async (e) => {
-                        e.preventDefault();
-                        
-                        const name = document.getElementById('replyName').value.trim();
-                        const content = document.getElementById('replyContent').value.trim();
-                        
-                        if (!name || !content) {
-                            showError('请填写名称和回复内容');
-                            return;
-                        }
-                        
-                        try {
-                            // 模拟提交回复到服务器
-                            // 在实际应用中，这里应该发送到您的后端API
-                            await simulateReplySubmission(issueId, name, content);
-                            
-                            // 显示成功消息
-                            document.getElementById('successMessage').style.display = 'block';
-                            document.getElementById('errorMessage').style.display = 'none';
-                            
-                            // 清空表单
-                            replyForm.reset();
-                            
-                            // 重新加载评论
-                            setTimeout(() => {
-                                showPostDetail(issueId);
-                            }, 2000);
-                            
-                        } catch (error) {
-                            showError('提交回复失败: ' + error.message);
-                        }
-                    });
-                }
-                
             } catch (error) {
                 console.error('加载帖子详情失败:', error);
                 postDetailContent.innerHTML = `
@@ -949,34 +933,6 @@
                     </div>
                 `;
             }
-        }
-        
-        // 模拟回复提交到服务器
-        function simulateReplySubmission(issueId, name, content) {
-            return new Promise((resolve, reject) => {
-                // 模拟网络延迟
-                setTimeout(() => {
-                    // 模拟成功提交
-                    resolve();
-                    
-                    // 模拟错误情况
-                    // if (Math.random() > 0.2) {
-                    //     resolve();
-                    // } else {
-                    //     reject(new Error('服务器错误，请稍后再试'));
-                    // }
-                }, 1000);
-            });
-        }
-        
-        // 显示错误消息
-        function showError(message) {
-            const errorMessage = document.getElementById('errorMessage');
-            const errorText = document.getElementById('errorText');
-            
-            errorText.textContent = message;
-            errorMessage.style.display = 'block';
-            document.getElementById('successMessage').style.display = 'none';
         }
         
         // 点击模态框外部关闭
