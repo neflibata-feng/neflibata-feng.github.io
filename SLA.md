@@ -66,3 +66,71 @@
 ​​再次提醒：本平台仅为测试环境，严禁一切商业化用途。您必须遵守所有内置开源组件的许可证规则。​​
 
 ​​如果您一旦注册、登录、访问或以任何方式使用本服务，即表示您已阅读、理解并同意受上述所有条款和条件的约束。
+Service Agreement  
+Last Updated: September 16, 2025  
+
+Important Notice: Please read this Service Agreement (hereinafter referred to as "this Agreement") carefully before using any products on the Xuandun Financial System platform (hereinafter referred to as "this Platform"). By registering, logging in, accessing, or using this service in any way, you are deemed to have fully read, understood, and completely agreed to be bound by all the terms of this Agreement. If you do not agree to any part of this Agreement, please immediately cease using this service.  
+
+1. Service Definition  
+This Platform is a financial system simulation environment provided by [Xuandun] (hereinafter referred to as "we" or "the Platform Provider") solely for testing, development, and research purposes. All data within this Platform is simulated data, and all functionalities are in the testing phase, significantly differing from a real production environment.  
+
+2. Acceptance of Terms  
+By accessing and using this Platform, you agree to comply with this Agreement and all applicable laws and regulations. You warrant that you are using this Platform for testing or development purposes and not for any commercial operational purposes.  
+
+3. Scope of Authorization and Usage Restrictions  
+We grant you a personal, revocable, non-exclusive, non-transferable, non-commercial limited license to access and use this Platform solely for the following purposes:  
+
+• Software functionality testing and verification  
+
+• System integration and development debugging  
+
+• Academic research or technical evaluation  
+
+• Internal training and demonstrations  
+
+You are strictly prohibited from the following activities:  
+
+• Commercial Use: Strictly prohibited from using this Platform or any part thereof for any commercial, production, or profit-making purposes, including but not limited to processing real financial transactions, real user data, or providing any form of service to third parties.  
+
+• Security Testing: Strictly prohibited from conducting any network security scanning, stress testing, penetration testing, or any activity that may compromise the stability and security of the Platform without our explicit written authorization.  
+
+• Removal of Identifiers: Strictly prohibited from removing, concealing, or modifying any copyright, trademark, patent, or other proprietary notices on this Platform.  
+
+• Reverse Engineering: Strictly prohibited from reverse engineering, decompiling, disassembling, or attempting to derive the source code of the Platform's software, code, structure, or functionality.  
+
+4. Intellectual Property and Open-Source Compliance  
+• Platform Provider Intellectual Property: The overall design, architecture, proprietary code, documentation, graphical interface, trademarks, and brands of this Platform ("Platform Provider Intellectual Property") are owned by us or our licensors. This Agreement does not transfer any Platform Provider Intellectual Property to you.  
+
+• Open-Source Components: The development of this Platform may include or rely on third-party open-source software components governed by open-source licenses (e.g., GPL, LGPL, Apache, MIT, etc.).  
+
+• Your Compliance Obligations: When using this Platform, you must strictly comply with the terms of all relevant open-source licenses. This typically includes but is not limited to:  
+
+  • Retention of Notices: Must fully retain all copyright information and license notices in the open-source code.  
+
+  • Source Code Disclosure: If you modify or create derivative works based on code governed by "Copyleft" licenses (e.g., GPL), you may be obligated to open-source the complete modified source code to the public.  
+
+You are solely responsible for reviewing, understanding, and complying with these open-source license terms. You shall be liable for any damages or losses we incur due to your violation of open-source licenses.  
+
+5. Disclaimer  
+This Platform is provided "as-is" and "as available," and the Platform Provider expressly disclaims all warranties of any kind, whether express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, non-infringement, and continuous stable availability.  
+
+All test data and results produced by the system have no economic value and shall not be used as a basis for any commercial decisions, investment advice, or any other form of reliance.  
+
+We reserve the right to interrupt, terminate, or modify the testing service at any time without prior notice.  
+
+All risks and consequences arising from your use of this Platform shall be borne solely by you.  
+
+6. Privacy and Data  
+You agree to our Privacy Policy https://docs.uestcgal.top/privacyPolicy.md, which outlines how we collect and use your registration information and usage data. All business data generated in the test environment is simulated data, and we do not treat it as confidential.  
+
+7. Amendment and Termination of the Agreement  
+We reserve the right to update or modify this Agreement at any time. The revised Agreement will take effect immediately upon publication on this page. Your continued use of this Platform constitutes acceptance of the updated Agreement.  
+
+We have the right to terminate your access at any time for any reason (including but not limited to your violation of this Agreement) without incurring any liability.  
+
+8. Governing Law  
+The formation, execution, and interpretation of this Agreement shall be governed by the laws of the People's Republic of China. Any disputes arising from this Agreement shall be submitted to the competent people's court in the location of the Platform Provider for resolution.  
+
+Reminder: This Platform is solely a testing environment, and all commercial use is strictly prohibited. You must comply with the license terms of all built-in open-source components.  
+
+By registering, logging in, accessing, or using this service in any way, you indicate that you have read, understood, and agreed to be bound by all the above terms and conditions.
