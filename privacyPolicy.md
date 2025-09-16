@@ -76,4 +76,77 @@
 ​​7. 本政策的变更​​
 我们可能会不时更新本隐私政策。任何变更都会在本页面发布修订后的政策，并更新“最后更新日期”。我们鼓励您定期查阅本政策以了解最新信息。变更后的政策在发布后立即生效。
 
+Privacy Policy  
+Last Updated: September 16, 2025  
 
+[Xuandun] (hereinafter referred to as "we") highly values the privacy protection of our users. This Privacy Policy explains how we collect, use, disclose, and process your information when you access or use our [Xuandun Financial System Full Platform Products] (hereinafter referred to as "this Platform").  
+
+Important Notice: This Platform is a simulated environment intended solely for testing and development purposes. Please read this Policy carefully before using our services. If you do not agree with any part of this Policy, please do not register or use our services. By registering, logging in, or using this Platform, you consent to our collection, use, and processing of your information in accordance with the provisions of this Policy.  
+
+1. Information We Collect  
+During your use of this Platform, we may collect the following two types of information:  
+
+1.1 Information You Provide Directly to Us  
+
+Account Information: When you register for a test account, we collect your name, email address, username, password, and any other information you may choose to provide (such as your company/institution name). This information is used solely for account management and platform access.  
+
+Communication Records: When you contact us for technical support or provide feedback, we save records of your communications and contact details.  
+
+1.2 Information We Collect Automatically  
+
+Usage Logs and Technical Data: When you access this Platform, we automatically collect certain information, including:  
+
+IP address, browser type and version, and operating system information.  
+Your device information.  
+Pages visited, access times and dates, and time spent on each page.  
+Information collected through Cookies and similar technologies (as detailed below).  
+
+2. How We Use Your Information  
+We use the collected information only for the following legitimate purposes:  
+
+Providing and Maintaining Services: Creating and managing your account, providing you with platform access and functionalities.  
+
+Communication and Support: Contacting you regarding account-related matters, platform updates, security announcements, or customer support requests.  
+
+Service Improvement: Analyzing how users interact with our platform to improve functionalities, optimize performance, and enhance user experience.  
+
+Security and Compliance: Monitoring and preventing fraudulent activities, safeguarding the security of this Platform and its users, and fulfilling our legal obligations.  
+
+Special Note: All business data within this Platform (such as simulated transactions, simulated user information, test results, etc.) are fictional test data. We do not treat such simulated data as personal information, nor do we use it for any purposes beyond those described in this Policy.  
+
+3. Cookies and Similar Technologies  
+We use Cookies and similar technologies (such as pixel tags) to collect and use the information mentioned above.  
+
+Purpose: These technologies are used to maintain your login status, remember your preferences, understand how you use our platform, and customize and improve your experience.  
+
+Control: You can refuse or manage Cookies through your browser settings. Please note, however, that disabling Cookies may affect the normal use of certain features of this Platform.  
+
+4. Sharing and Disclosure of Information  
+We will never sell your personal information. We share your information only under the following limited circumstances:  
+
+Service Providers: We may engage third-party service providers (such as cloud hosting providers and data analytics services) bound by contracts to assist us in operating the platform. These providers may access your information solely for the purpose of providing services to us and must keep the information confidential.  
+
+Legal Compliance: We may disclose your information if we believe it is necessary to comply with applicable laws, regulations, legal processes, or governmental mandatory requirements.  
+
+Protecting Rights and Security: We may disclose information when necessary to protect the rights, property, and safety of our company, our users, or the public from harm.  
+
+5. Your Data Rights  
+Under applicable laws, you may have the following rights regarding your personal information:  
+
+Access and Correction: You have the right to access the personal information we hold about you and to request corrections to inaccurate information. You can typically manage this information directly in your account settings.  
+
+Deletion: You may request that we delete your personal information.  
+
+Restriction of Processing: In certain circumstances, you may request that we suspend the processing of your personal information.  
+
+Data Portability: You have the right to receive the personal information you provided to us in a structured, commonly used, and machine-readable format.  
+
+To exercise any of the above rights, please contact us using the contact details provided at the end of this Policy. We will respond to your request within the time frame required by applicable laws.  
+
+6. Data Security and Retention  
+Security: We implement reasonable administrative, technical, and physical security measures to protect your personal information from loss, misuse, unauthorized access, disclosure, alteration, and destruction.  
+
+Retention: We retain your personal information only for as long as necessary to fulfill the purposes outlined in this Policy. After you deactivate your test account, we will delete or anonymize your personal information within a reasonable time, unless laws require us to retain it for a longer period.  
+
+7. Changes to This Policy  
+We may update this Privacy Policy from time to time. Any changes will be posted on this page with the revised policy and an updated "Last Updated" date. We encourage you to review this Policy periodically to stay informed. The updated policy will take effect immediately upon posting.
